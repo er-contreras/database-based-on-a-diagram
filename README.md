@@ -1,6 +1,7 @@
 # Databases Based On A Diagram
 
-![Screen Shot 2021-10-19 at 12 21 56](https://user-images.githubusercontent.com/67211919/137960401-3844e281-60a6-4bca-8e28-69a41cdc92f2.png)
+![Screen Shot 2021-10-19 at 14 25 54](https://user-images.githubusercontent.com/67211919/137977348-c4d5b897-2e78-43e1-888a-5d4dc4230849.png)
+
 
 ## Authors
 
