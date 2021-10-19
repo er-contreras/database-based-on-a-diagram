@@ -42,3 +42,18 @@ CREATE TABLE medical_histories_and_treatments (
 	FOREIGN KEY (treatments_id) REFERENCES treatments(id),
 	PRIMARY KEY (medical_histories_id, treatments_id)
 )
+
+ALTER TABLE medical_histories
+ADD FOREIGN KEY (patient_id) REFERENCES patients(id)
+
+ALTER TABLE invoice_items
+ADD 
+FOREIGN KEY (invoice_id) REFERENCES invoices(id)
+
+ALTER TABLE invoice_items
+ADD 
+FOREIGN KEY (treatment_id) REFERENCES treatments(id)
+
+ALTER TABLE invoices
+ADD 
+FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id)
